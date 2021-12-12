@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopApp.DataAccess\E_Ticaret.DataAccess.csproj" />
+    <ProjectReference Include="..\ShopApp.Entities\E_Ticaret.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
